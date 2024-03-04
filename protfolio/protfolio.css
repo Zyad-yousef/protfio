@@ -1,0 +1,224 @@
+body{
+    background-color: black;
+    color: white;
+    height: 1000px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+:root{
+    --mincolor:rgb(231, 14, 116);
+}
+h2{
+    text-transform: capitalize;
+    position: relative;
+    top: 0px;
+    left: 21px;
+    font-size: 39px;
+    
+}
+h2 span{
+    color: var(--mincolor);
+    font-size: 60px;
+    transform: rotate(45deg);
+}
+.container ul{
+    display: flex;
+    column-gap: 28px;
+    list-style: none;
+    flex-direction: row;
+    position: absolute;
+    top: 14px;
+    font-size: 25px;
+    right: 30px;
+    margin-right: 30px;
+    }
+.container ul li{
+    transition-duration: .5s;
+}
+.container ul li:hover{
+    color: var(--mincolor);
+    cursor: pointer;
+}
+.about h3{
+    font-size: 31px;
+}
+.search{
+    font-weight: 900;
+    width: 262px;
+    position: absolute;
+    height: 36px;
+    top: 10px;
+    left: 37%;
+    border: 2px solid var(--mincolor);
+    border-radius: 17px;
+    color: white;
+    padding: 16px;
+    background-color: #ffffff2e;
+    caret-color: var(--mincolor);
+}
+.search:hover{
+    background-color: #ffffff42;
+    outline: none;
+}
+.search:focus{
+    border: 2px solid var(--mincolor);
+    outline: none;
+}
+.article{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    height: 363px;
+    left: 143px;
+    top: 105px;
+    border-radius: 25px;
+    position: absolute;
+    background-color: #ffffff26;
+}
+.article img{
+    position: absolute;
+    top: 25px;
+    transition-duration: .5s;
+    left: 605px;
+    border-radius: 15px;
+}
+.article img:hover{
+    transform: scale(1.1);
+}
+.about ul{
+    list-style: square;
+    padding: 10px
+}
+.about ul li{
+    font-size: 23px;
+    padding: 10px;
+    margin: 10px;
+}
+.boxes{
+    position: absolute;
+    top: 523px;
+    width: 100%;
+}
+.boxes h1{
+    text-align: center;
+    font-size: 53px;
+    color: var(--mincolor);
+    position: relative;
+    top: -28px;
+    text-transform: capitalize;
+}
+.father{
+    display: grid;
+    grid-template-columns: repeat(3,29%);
+    justify-content: space-evenly;
+}
+.box h3{
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 67px;
+}
+.box input{
+    width: 106px;
+    height: 41px;
+    border-radius: 25px;
+    top: 158px;
+}
+.box{
+    background-color: #ffffff2e;
+    padding: 18px;
+    display: grid;
+    justify-items: center;
+    height: 120px;
+    border-radius: 23px;
+    border: 2px solid;
+    text-transform: capitalize;
+}
+.box p{
+    position: relative;
+    top: 23px;
+    left: 13px;
+}
+.about{
+    padding-left: 20px;
+}
+.hire{
+    position: absolute;
+    top: 789px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 163px;
+    background-color: #432b2b57;
+}
+.hire p{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 3;
+}
+.hire input{
+    width: 137px;
+    height: 38px;
+    border-radius: 30px;
+    top: 74px;
+    right: 251px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box input,
+.hire input{
+    text-align: center;
+    background-color: var(--mincolor);
+    color: white;
+    outline: none;
+    border: 2px solid;
+    position: absolute;
+    text-transform: capitalize;
+}
+.logo{
+    background-color: white;
+    width: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    transition-duration: .5S;
+}
+.logo:hover{
+    background-color: var(--mincolor);
+}
+.footer{
+    position: absolute;
+    bottom: -497px;
+    height: 184px;
+    width: 100%;
+    background-color: #141213;
+}
+.footer h3{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 30px;
+    top: 12px;
+    position: relative;
+    font-family: cursive;
+}
+
+.photos{
+    top: 30px;
+    display: flex;
+    column-gap: 20px;
+    position: relative;
+    justify-content: center;
+}
+.copy{
+    font-size: 13px;
+    font-family: math;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color: #4de132;
+}
